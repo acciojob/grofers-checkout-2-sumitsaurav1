@@ -11,7 +11,7 @@ function func(){
     td1.innerText="Total";
 	let td2=document.createElement("td");
     td2.innerText=sum;
-	td2.data-ns-test="grandTotal"
+	//td2.data-ns-test="grandTotal"
 	tr.appendChild(td1);
 	tr.appendChild(td2);
 	table.appendChild(tr);
